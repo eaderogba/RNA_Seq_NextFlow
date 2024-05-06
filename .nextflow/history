@@ -10,3 +10,6 @@
 2024-05-06 10:47:47	1.8s	cheeky_miescher	OK	c3688c12b1dcc83824f27e8ead9d608b	fe6f6959-569d-4cc5-bdc8-482205ddb783	nextflow run script.nf -resume --reads 'data/*_{1,2}.fastq'
 2024-05-06 10:54:03	2.7s	pensive_galileo	OK	454ca8ab820d51539b001c4c6a3b1c73	fe6f6959-569d-4cc5-bdc8-482205ddb783	nextflow run script.nf -resume --reads 'data/*_{1,2}.fastq'
 2024-05-06 13:11:31	27.2s	distraught_swartz	OK	3f48c0495032408944405fcb0a499f17	fe6f6959-569d-4cc5-bdc8-482205ddb783	nextflow run script.nf -resume
+2024-05-06 13:39:38	-	suspicious_mclean	-	3335379196cca8a7cf676c02ff97b362	fe6f6959-569d-4cc5-bdc8-482205ddb783	nextflow run script.nf -resume
+2024-05-06 13:41:26	2.3s	festering_wilson	OK	3f9df54a43b8a51577c9e0f6e3e0befd	fe6f6959-569d-4cc5-bdc8-482205ddb783	nextflow run script.nf -resume
+2024-05-06 13:45:14	6.9s	trusting_babbage	OK	e6ee6c0eb429de9060b724b47f918fec	fe6f6959-569d-4cc5-bdc8-482205ddb783	nextflow run script.nf -resume

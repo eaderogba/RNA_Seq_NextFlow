@@ -100,9 +100,8 @@ workflow {
     //
     index_ch = INDEX(params.transcriptome_file)
     fastqc_ch = FASTQC(read_pairs_ch)
-    multiqc_ch = MULTIQC(fastqc_ch)
+    multiqc_ch = MULTIQC(fastqc_ch.collect())
     quant_ch = QUANTIFICATION(index_ch, read_pairs_ch)
-    
 }
 
 workflow.onComplete {

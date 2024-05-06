@@ -1,0 +1,12 @@
+2024-05-04 21:09:47	-	big_hamilton	-	51d41fb141d04cf2029546d50907e1eb	fe6f6959-569d-4cc5-bdc8-482205ddb783	nextflow run script1.nf -resume
+2024-05-04 21:10:12	6m 21s	high_archimedes	OK	7d9195f7a017a3c71415f60fc575d381	fe6f6959-569d-4cc5-bdc8-482205ddb783	nextflow run script1.nf -resume
+2024-05-04 21:28:51	39m 27s	determined_mirzakhani	OK	1664398bc7793bc954e8346f1321384f	fe6f6959-569d-4cc5-bdc8-482205ddb783	nextflow run script1.nf -resume
+2024-05-04 22:34:58	7m 9s	lethal_gauss	OK	8132f083d2a76a8035b4ef774647bf22	fe6f6959-569d-4cc5-bdc8-482205ddb783	nextflow run script1.nf -resume
+2024-05-06 10:14:18	2s	trusting_picasso	OK	3e2319f7d0b66ad9b5bc7e83790ad7c0	fe6f6959-569d-4cc5-bdc8-482205ddb783	nextflow run script.nf -resume
+2024-05-06 10:14:40	2.8s	romantic_brattain	OK	77217e0e72c574e67ea410ae35a37927	fe6f6959-569d-4cc5-bdc8-482205ddb783	nextflow run script.nf -resume
+2024-05-06 10:31:17	-	shrivelled_kay	-	a88af24fa0a9eaeac4bc204547f4f122	fe6f6959-569d-4cc5-bdc8-482205ddb783	nextflow run script.nf -resume
+2024-05-06 10:32:25	-	sleepy_plateau	-	5562367930a229880c0f297f5d25a363	fe6f6959-569d-4cc5-bdc8-482205ddb783	nextflow run script.nf -resume
+2024-05-06 10:33:07	1m 8s	determined_poitras	OK	02f970ad5a48dad9ff8d2ad7d5cbb623	fe6f6959-569d-4cc5-bdc8-482205ddb783	nextflow run script.nf -resume
+2024-05-06 10:47:47	1.8s	cheeky_miescher	OK	c3688c12b1dcc83824f27e8ead9d608b	fe6f6959-569d-4cc5-bdc8-482205ddb783	nextflow run script.nf -resume --reads 'data/*_{1,2}.fastq'
+2024-05-06 10:54:03	2.7s	pensive_galileo	OK	454ca8ab820d51539b001c4c6a3b1c73	fe6f6959-569d-4cc5-bdc8-482205ddb783	nextflow run script.nf -resume --reads 'data/*_{1,2}.fastq'
+2024-05-06 13:11:31	27.2s	distraught_swartz	OK	3f48c0495032408944405fcb0a499f17	fe6f6959-569d-4cc5-bdc8-482205ddb783	nextflow run script.nf -resume

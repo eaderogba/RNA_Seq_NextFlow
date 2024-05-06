@@ -1,0 +1,46 @@
+{
+    "salmon_version": "1.0.0",
+    "samp_type": "none",
+    "opt_type": "vb",
+    "quant_errors": [],
+    "num_libraries": 1,
+    "library_types": [
+        "IU"
+    ],
+    "frag_dist_length": 1001,
+    "seq_bias_correct": false,
+    "gc_bias_correct": false,
+    "num_bias_bins": 4096,
+    "mapping_type": "mapping",
+    "num_valid_targets": 192825,
+    "num_decoy_targets": 0,
+    "num_eq_classes": 922994,
+    "serialized_eq_classes": false,
+    "eq_class_properties": [
+        "range_factorized"
+    ],
+    "length_classes": [
+        563,
+        814,
+        1636,
+        3010,
+        109224
+    ],
+    "index_seq_hash": "2f3e6ee7570051da52b27e5ed06fb3e2c65200f9897515cfb9e5a55bc0f7988a",
+    "index_name_hash": "5aad62790d66fea0ca25f2f07161d9149c5e02228363ed64f3ca7053961efae1",
+    "index_seq_hash512": "",
+    "index_name_hash512": "",
+    "index_decoy_seq_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "index_decoy_name_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "num_bootstraps": 0,
+    "num_processed": 17073430,
+    "num_mapped": 15680495,
+    "num_decoy_fragments": 0,
+    "num_dovetail_fragments": 602688,
+    "num_fragments_filtered_vm": 603274,
+    "num_alignments_below_threshold_for_mapped_fragments_vm": 25596366,
+    "percent_mapped": 91.84150460686576,
+    "call": "quant",
+    "start_time": "Sat May  4 20:40:09 2024",
+    "end_time": "Sat May  4 20:50:03 2024"
+}

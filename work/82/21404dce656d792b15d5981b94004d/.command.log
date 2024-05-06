@@ -1,0 +1,15 @@
+/opt/conda/lib/python2.7/site-packages/multiqc/utils/config.py:45: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  configs = yaml.load(f)
+/opt/conda/lib/python2.7/site-packages/multiqc/utils/config.py:51: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  sp = yaml.load(f)
+[WARNING]         multiqc : MultiQC Version v1.21 now available!
+[INFO   ]         multiqc : This is MultiQC v1.5.dev0
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Searching '.'
+[INFO   ]          salmon : Found 4 meta reports
+[INFO   ]          salmon : Found 4 fragment length distributions
+[INFO   ]          fastqc : Found 8 reports
+[INFO   ]         multiqc : Compressing plot data
+[INFO   ]         multiqc : Report      : multiqc_report.html
+[INFO   ]         multiqc : Data        : multiqc_data
+[INFO   ]         multiqc : MultiQC complete

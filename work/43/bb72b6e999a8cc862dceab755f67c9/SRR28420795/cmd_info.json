@@ -1,0 +1,10 @@
+{
+    "salmon_version": "1.0.0",
+    "threads": "4",
+    "libType": "U",
+    "index": "salmon_index",
+    "mates1": "SRR28420795_1.fastq",
+    "mates2": "SRR28420795_2.fastq",
+    "output": "SRR28420795",
+    "auxDir": "aux_info"
+}

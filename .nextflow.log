@@ -1,0 +1,98 @@
+May-06 13:11:30.593 [main] DEBUG nextflow.cli.Launcher - $> nextflow run script.nf -resume
+May-06 13:11:30.743 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.10.0
+May-06 13:11:30.783 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/root/.nextflow/plugins; core-plugins: nf-amazon@2.1.4,nf-azure@1.3.2,nf-cloudcache@0.3.0,nf-codecommit@0.1.5,nf-console@1.0.6,nf-ga4gh@1.1.0,nf-google@1.8.3,nf-tower@1.6.3,nf-wave@1.0.0
+May-06 13:11:30.796 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+May-06 13:11:30.799 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+May-06 13:11:30.805 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+May-06 13:11:30.818 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+May-06 13:11:30.841 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/eaderogba279/Bionformatics_Projects/RNA_Seq_NextFlow/nextflow.config
+May-06 13:11:30.843 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/eaderogba279/Bionformatics_Projects/RNA_Seq_NextFlow/nextflow.config
+May-06 13:11:30.877 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+May-06 13:11:31.475 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
+May-06 13:11:31.505 [main] INFO  nextflow.cli.CmdRun - Launching `script.nf` [distraught_swartz] DSL2 - revision: 3f48c04950
+May-06 13:11:31.506 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+May-06 13:11:31.506 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+May-06 13:11:31.523 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /root/.nextflow/secrets/store.json
+May-06 13:11:31.530 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@a098d76] - activable => nextflow.secret.LocalSecretsProvider@a098d76
+May-06 13:11:31.597 [main] DEBUG nextflow.Session - Session UUID: fe6f6959-569d-4cc5-bdc8-482205ddb783
+May-06 13:11:31.597 [main] DEBUG nextflow.Session - Run name: distraught_swartz
+May-06 13:11:31.599 [main] DEBUG nextflow.Session - Executor pool size: 4
+May-06 13:11:31.608 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+May-06 13:11:31.635 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.10.0 build 5889
+  Created: 15-10-2023 15:07 UTC (16:07 WAST)
+  System: Linux 6.5.0-28-generic
+  Runtime: Groovy 3.0.19 on Java HotSpot(TM) 64-Bit Server VM 21.0.1+12-LTS-29
+  Encoding: UTF-8 (UTF-8)
+  Process: 93579@eaderogba279-Latitude-7480 [127.0.1.1]
+  CPUs: 4 - Mem: 15.5 GB (4.6 GB) - Swap: 2 GB (2 GB) - Virtual threads ON
+May-06 13:11:31.673 [main] DEBUG nextflow.Session - Work-dir: /home/eaderogba279/Bionformatics_Projects/RNA_Seq_NextFlow/work [ext2/ext3]
+May-06 13:11:31.673 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/eaderogba279/Bionformatics_Projects/RNA_Seq_NextFlow/bin
+May-06 13:11:31.686 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+May-06 13:11:31.702 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+May-06 13:11:31.732 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+May-06 13:11:31.742 [main] DEBUG nextflow.util.CustomPoolFactory - Creating virtual thread pool
+May-06 13:11:31.837 [main] DEBUG nextflow.Session - Session start
+May-06 13:11:32.444 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+May-06 13:11:32.468 [main] INFO  nextflow.Nextflow - R N A S E Q - N F  P I P E L I N E
+===================================
+Adapted by Adebowale
+===================================
+transcriptome: /home/eaderogba279/Bionformatics_Projects/RNA_Seq_NextFlow/data/Homo_sapiens.GRCh38.cdna.all.fa
+reads        : /home/eaderogba279/Bionformatics_Projects/RNA_Seq_NextFlow/data/*_{1,2}.fastq
+outdir       : results
+
+May-06 13:11:32.706 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-06 13:11:32.707 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-06 13:11:32.714 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+May-06 13:11:32.722 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=4; memory=15.5 GB; capacity=4; pollInterval=100ms; dumpInterval=5m
+May-06 13:11:32.725 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+May-06 13:11:32.842 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-06 13:11:32.842 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-06 13:11:32.847 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-06 13:11:32.848 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-06 13:11:32.853 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-06 13:11:32.854 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-06 13:11:32.858 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: FASTQC, QUANTIFICATION, MULTIQC, INDEX
+May-06 13:11:32.859 [main] DEBUG nextflow.Session - Igniting dataflow network (5)
+May-06 13:11:32.866 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > INDEX
+May-06 13:11:32.868 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > FASTQC
+May-06 13:11:32.867 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /home/eaderogba279/Bionformatics_Projects/RNA_Seq_NextFlow/data/; pattern: *_{1,2}.fastq; options: [checkIfExists:true]
+May-06 13:11:32.883 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MULTIQC
+May-06 13:11:32.883 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > QUANTIFICATION
+May-06 13:11:32.884 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_7fbe1af8c542dd2c: /home/eaderogba279/Bionformatics_Projects/RNA_Seq_NextFlow/script.nf
+May-06 13:11:32.884 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+May-06 13:11:32.884 [main] DEBUG nextflow.Session - Session await
+May-06 13:11:33.154 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [c6/53f6aa] Cached process > INDEX
+May-06 13:11:33.154 [Actor Thread 18] INFO  nextflow.processor.TaskProcessor - [d7/d8897c] Cached process > FASTQC (FASTQC on SRR28420797)
+May-06 13:11:33.155 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [82/609950] Cached process > FASTQC (FASTQC on SRR28420798)
+May-06 13:11:33.155 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [95/41c634] Cached process > FASTQC (FASTQC on SRR28420795)
+May-06 13:11:33.157 [Actor Thread 20] INFO  nextflow.processor.TaskProcessor - [79/c18c08] Cached process > FASTQC (FASTQC on SRR28420796)
+May-06 13:11:33.206 [Actor Thread 35] INFO  nextflow.processor.TaskProcessor - [43/bb72b6] Cached process > QUANTIFICATION (Salmon on SRR28420795)
+May-06 13:11:33.208 [Actor Thread 36] INFO  nextflow.processor.TaskProcessor - [8f/8dc523] Cached process > QUANTIFICATION (Salmon on SRR28420797)
+May-06 13:11:33.213 [Actor Thread 38] INFO  nextflow.processor.TaskProcessor - [42/87b21b] Cached process > QUANTIFICATION (Salmon on SRR28420796)
+May-06 13:11:33.216 [Actor Thread 28] INFO  nextflow.processor.TaskProcessor - [3a/ff8125] Cached process > QUANTIFICATION (Salmon on SRR28420798)
+May-06 13:11:33.262 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-06 13:11:33.264 [Task submitter] INFO  nextflow.Session - [d1/c09a17] Submitted process > MULTIQC (2)
+May-06 13:11:47.027 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: MULTIQC (2); status: COMPLETED; exit: 0; error: -; workDir: /home/eaderogba279/Bionformatics_Projects/RNA_Seq_NextFlow/work/d1/c09a1769fceb1734c8c4f8c40f738f]
+May-06 13:11:47.034 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-06 13:11:47.035 [Task submitter] INFO  nextflow.Session - [aa/dabccb] Submitted process > MULTIQC (3)
+May-06 13:11:50.723 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 12; name: MULTIQC (3); status: COMPLETED; exit: 0; error: -; workDir: /home/eaderogba279/Bionformatics_Projects/RNA_Seq_NextFlow/work/aa/dabccbe18f3a67ca5ca99bf252819c]
+May-06 13:11:50.729 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-06 13:11:50.730 [Task submitter] INFO  nextflow.Session - [fa/3b0454] Submitted process > MULTIQC (1)
+May-06 13:11:54.234 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: MULTIQC (1); status: COMPLETED; exit: 0; error: -; workDir: /home/eaderogba279/Bionformatics_Projects/RNA_Seq_NextFlow/work/fa/3b04547e065afebc75d9edeecd5ef3]
+May-06 13:11:54.238 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-06 13:11:54.239 [Task submitter] INFO  nextflow.Session - [3c/df3258] Submitted process > MULTIQC (4)
+May-06 13:11:57.941 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 13; name: MULTIQC (4); status: COMPLETED; exit: 0; error: -; workDir: /home/eaderogba279/Bionformatics_Projects/RNA_Seq_NextFlow/work/3c/df32586de7c0fbd5b3770aa6e9233f]
+May-06 13:11:57.944 [main] DEBUG nextflow.Session - Session await > all processes finished
+May-06 13:11:57.946 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+May-06 13:11:57.946 [main] DEBUG nextflow.Session - Session await > all barriers passed
+May-06 13:11:57.949 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+May-06 13:11:57.951 [main] INFO  nextflow.Nextflow - 
+Done! Open the following report in your browser --> results/multiqc_report.html
+
+May-06 13:11:57.958 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=4; failedCount=0; ignoredCount=0; cachedCount=9; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=1m 37s; failedDuration=0ms; cachedDuration=3h 30m 38s;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=4; peakMemory=0; ]
+May-06 13:11:58.160 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+May-06 13:11:58.179 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+May-06 13:11:58.180 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

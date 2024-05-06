@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR28420796_1	/home/eaderogba279/Bionformatics_Projects/RNA_Seq_NextFlow/work/aa/dabccbe18f3a67ca5ca99bf252819c/fastqc_SRR28420796_logs/SRR28420796_1_fastqc.zip
+FastQC	all_sections	SRR28420796_2	/home/eaderogba279/Bionformatics_Projects/RNA_Seq_NextFlow/work/aa/dabccbe18f3a67ca5ca99bf252819c/fastqc_SRR28420796_logs/SRR28420796_2_fastqc.zip
